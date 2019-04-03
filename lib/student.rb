@@ -14,9 +14,9 @@ class Student
   
   def self.create_table 
     sql = <<-SQL
-      DB[:conn
+      
     SQL 
     
-    
+    DB[:conn].execute(sql)
   end 
 end
